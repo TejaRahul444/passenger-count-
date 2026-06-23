@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>game</title>
+        <style>
+           body{ 
+            background-image : url("https://media.gettyimages.com/id/1390783322/photo/early-morning-indian-railway-station.jpg?s=1024x1024&w=gi&k=20&c=YCO92Gbx4qCrhv3vDLUID457luttFpElmZGaUdd7oCY=");
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+           }
+           h1{
+            margin-top: 50px;
+            margin-bottom: 10px;
+            font-size: 60px;
+            color: blue;
+           }
+           h2{
+            color: blue;
+            font-size: 50px;
+            margin-top: 0;
+            margin-bottom: 10px;
+           }
+           button{
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            margin:20px 0;
+           }
+
+        </style>
+    </head>
+    <body>
+        <h1>people entered</h1>
+        <h2 id="count-el">0</h2>
+       <div>
+    <button id="increment-btn" onclick="increment()">Increment</button>
+</div>
+
+<div>
+    <button id="decrement-btn" onclick="decrement()">Decrement</button>
+</div>
+        <script src="index.js"></script>
+    </body>
+</html>
